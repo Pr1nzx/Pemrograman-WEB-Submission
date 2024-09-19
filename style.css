@@ -1,0 +1,350 @@
+
+:root {
+    --primary-color: #EB4335;
+    
+  }
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    line-height: 1.6;
+   
+    font-family: "Plus Jakarta Sans";
+    min-width: 40rem;
+    
+}
+
+header {
+    background-color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3rem 0 2rem;
+    font-weight: 700;
+}
+
+.logo{
+    cursor: pointer;
+    list-style-type: none;
+    
+}
+
+.logo a{
+    font-size: 2rem;
+    font-weight: 40rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.1rem;
+    list-style-type: none;
+}
+.menu li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 35rem;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+.profile{
+    list-style-type: none;
+}
+
+.profile li.btn-regis a {
+    font-size:1rem;
+    color: white;
+    margin-left: 0.5rem;
+    padding: 0.7rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+
+}
+
+.btn-regis a:hover {
+    transform: scale(1.05); 
+}
+
+
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text-landing{
+    flex: 1;
+    margin-left: 3rem;
+    
+}
+.landing h1 {
+    
+    margin: 0;
+    margin-top: 8rem;
+    font-size: 6rem;
+    color: var(--primary-color);
+    font-weight: 900;
+    
+}
+
+.landing p {
+    width: 640px;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.landing p span{
+   font-weight: 800;
+   color: var(--primary-color);
+}
+
+.landing a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 70px;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+.landingimg img {
+    max-width: 100%; 
+    height: auto;
+    flex: 1; 
+    margin-top: 6.5rem;
+    
+}
+
+.kepobutton {
+    transition: background-color 0.3s ease, transform 0.3s ease;      
+}
+
+.kepobutton:hover{
+    transform: scale(1.05);
+}
+
+.getstarted {
+    display:  flex;
+    margin-top: 6rem;
+    
+}
+
+.getstarted .text {
+    order: 1;
+    font-size: 1rem;
+}
+.getstarted .text h1{
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Anton";
+    
+}
+.getstarted .text p{
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.adasiapa {
+    margin-top: 3rem;
+    margin-left: 0.5rem;
+    display:  flex;
+}
+
+.adasiapa.text {
+    order: 1;
+    font-size: 1rem;
+}
+.adasiapa .text h1{
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Anton";
+    
+}
+.adasiapa .text p{
+    font-size: 1.4rem;
+    text-align: center;
+    
+    
+}
+
+.wrap{
+    display: flex
+    ;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+
+
+aside {
+    width:100% ;
+    box-shadow: inset 5px 0 5px -5px var(--primary-color);
+    font-style: italic;
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+aside img {
+    width: 400px;
+    height: auto;
+    flex: 1; 
+
+    margin-top: 6.5rem;
+}
+
+.pemeran {
+margin-top: 3rem;
+margin-left: 0.5rem;
+display:  flex;
+}
+
+.pemeran .text {
+    order: 1;
+    font-size: 1rem;
+}
+.pemeran .text h1{
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Anton";
+    
+}
+.pemeran .text p{
+    font-size: 1.4rem;
+    text-align: center;
+    
+    
+}
+
+.button{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button a{
+    
+    font-size:1rem;
+    color: white;
+    margin-left: 0.5rem;
+    padding: 0.7rem 1rem;
+    background-color: var(--primary-color);
+    border-radius: 7px;
+    text-decoration: none;  
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
+.gambaryoutube  {
+    margin-top: 0.2rem;
+    width: 100%;
+    height: auto;
+    flex: 1; 
+    margin-top: 6.5rem; 
+}
+
+footer{
+    margin-top: 1rem;
+}
+
+.textfooter {
+    background-color:var(--primary-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.listfooter {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.listfooter li {
+    display: inline;
+}
+
+.listfooter a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.listfooter a:hover {
+    text-decoration: underline;
+}
+
+/* iseng aja  */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+  }
+  
+
+
+
+
